@@ -8,11 +8,11 @@
     margin-top: 30px;
     padding: 40px 20px;
     transition: all 0.5s ease 0s;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    border: 3px solid #0d0e0e;
+    border: 1px solid #26308b;
 }
 
 .box-wrap:hover {
@@ -125,4 +125,8 @@
     right: 0;
     width: 80px;
     box-sizing: border-box;
+}
+
+@media (max-width: 745.98px) {
+    
 }
