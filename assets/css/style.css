@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
-* {
-    font-family: 'Inconsolata', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&400&600&700&800&600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
 }
 
 .box-wrap {
