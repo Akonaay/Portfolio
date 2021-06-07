@@ -31,59 +31,84 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-light navbar-light "
-    style="background-color: rgba(90, 95, 155, 0.74) !important; font-weight: 900;">
-    <a class="navbar-brand" href="/">Ambrose Dev</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Intro<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-dark bolder"
-            style="border-radius: 20px; color: aliceblue !important; font-weight: bolder;" href="/assets/pdf/Resume.pdf"
-            download>Resume</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div id="main">
-    <!-- Intro Me  -->
-    <div class="container mt-3" id="intro">
-      <div class="row">
-        <div class="col-md-8" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="500">
-          <div>
-            <h3 style="font-weight: bold;">Hello World!</h3>
-            <h4 class="mt-3 text-justify me"></h4>
-            <p class="text-justify mt-3">
-              I've done IT Support, Web development for agencies and
-              collaborated with talented people to create digital features for
-              both business and consumer use. I'm naturally curious, and
-              perpetually working on improving my skills on web development
-              and technology wise.
-            </p>
-
-            <p class="mt-2 text-center alert-danger">
-              <i class="fa fa-bell text-danger"></i> <span class="ml-1 mr-2">New works added!</span><i class="fa fa-hand-o-down text-danger"></i>
-            </p>
-          </div>
+    <!-- Top Bar -->
+    <section id="topbar">
+      <div class="container clearfix">
+        <div class="contact-info float-left">
+          <a href="mailto:ambrosesulley4@gmail.com.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="tel:+255717094388">
+            <i class="fa fa-phone"></i>
+          </a>
         </div>
-        <div class="col-md-4 mt-md-5" data-aos="fade-up" data-aos-delay="1000">
-          <div class="text-center">
-            <img class="img-fluid rounded-circle" src="assets/img/me.jpg" alt="" />
-          </div>
+        <div class="social-links float-right">
+          <a href="https://twitter.com/_adstz" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/ambroce.sulley/" target="_blank" class="facebook"><i
+              class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ambrosesulley/" target="_blank" class="instagram"><i
+              class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ambrose-sulley-13719ab6" target="_blank" class="linkedin"><i
+              class="fa fa-linkedin"></i></a>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md nav-bg-color">
+      <a class="navbar-brand" href="/">I, Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Intro<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link label-blue" href="/assets/pdf/Resume.pdf" download>Resume</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <section class="w3l-about-breadcrumb">
+      <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+        <div class="container py-lg-5 py-md-4">
+          <div class="row">
+            <div class="col-md-8">
+              <h4>Hello,</h4>
+              <h6 class="mt-3 text-justify me"></h6>
+              <div style="border-bottom: 1px solid rgba(238, 111, 111, 0.657); margin-bottom: 5px; margin-top: 5px;"></div>
+              <p class="text-justify mt-3">
+                I have done IT Support, Web Development for agencies and
+                collaborated with talented people to create digital features for
+                both business and consumer use. I'm naturally curious, and
+                perpetually working on improving my skills on web development
+                and technology wise.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <span class="mb-5">
+                  <img class="img-fluid rounded-circle" src="assets/img/me.jpg" alt="" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-overlay"></div>
+      </div>
+    </section>
 
     <!-- Skills  -->
     <div class="container mt-3 mb-3" id="skills">
@@ -94,102 +119,66 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="box-wrap" style="height: 90%">
+          <div class="box-wrap">
             <div class="icon">
               <span class="fa fa-briefcase fa-2x text-primary"></span>
             </div>
             <h4>
               <a href="#url">Technical Skills</a>
             </h4>
-
             <div id="content-p">
-              <ul class="list-group list-group-flush text-left">
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  LAN Design, Installation, and Configuration
-                </li>
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  Office Technical Support
-                </li>
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  Computer Maintainance & Repair
-                </li>
-              </ul>
-              <h5>Working enviroment</h5>
-              <div>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">Printer setup & configuration</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">Wireless Installation</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">Ubiquiti</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">MikroTik</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">D-Link</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">Cisco</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">More...</a>
-              </div>
+              <span class="label-blue mb-sm-4 mb-3">Computer Troubleshoot and Maintainance</span>
+              <span class="label-blue mb-sm-4 mb-3">Office Technical Support</span>
+              <span class="label-blue mb-sm-4 mb-3">Network Design & Installation</span>
+              <span class="label-blue mb-sm-4 mb-3">WiFi Installation</span>
+              <span class="label-blue mb-sm-4 mb-3">Security Camera Installation</span>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="box-wrap" style="height: 90%">
+          <div class="box-wrap">
             <div class="icon">
               <span class="fa fa-code fa-2x text-primary"></span>
             </div>
             <h4>
-              <a href="#url">Web Developer Skills</a>
+              <a href="#url">Front-End</a>
             </h4>
 
-            <div id="content-p">
-              <ul class="list-group list-group-flush text-left">
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  Website Design
-                </li>
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  Web App Development
-                </li>
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  Mobile App Development
-                </li>
-                <li class="list-group-item">
-                  <span><i class="fa fa-check-circle"></i></span>
-                  UI/UX
-                </li>
-              </ul>
-              <h5>Working enviroment</h5>
-              <div>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">HTML</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">CSS</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">Javascript</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">PHP</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">Java</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">Vue</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">React & React-Native</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">jQuery</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">WordPress</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm m-2">Laravel</a>
-                <a href="#!" class="btn btn-outline-secondary btn-sm">Express JS</a>
-              </div>
+            <div id="content-p" class="">
+              <span class="label-blue mb-sm-4 mb-3">HTML</span>
+              <span class="label-blue mb-sm-4 mb-3">CSS3</span>
+              <span class="label-blue mb-sm-4 mb-3">Bootstrap</span>
+              <span class="label-blue mb-sm-4 mb-3">Bumla</span>
+              <span class="label-blue mb-sm-4 mb-3">Javascript</span>
+              <span class="label-blue mb-sm-4 mb-3">Vue JS</span>
+              <span class="label-blue mb-sm-4 mb-3">React JS</span>
+              <span class="label-blue mb-sm-4 mb-3">jQuery</span>
+              <span class="label-blue mb-sm-4 mb-3">Express JS</span>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="box-wrap" style="height: 90%">
+          <div class="box-wrap" >
             <div class="icon">
               <span class="fa fa-cubes fa-2x text-primary"></span>
             </div>
             <h4>
-              <a href="#url">Social Media Marketing</a>
+              <a href="#url">Back-End</a>
             </h4>
+            <div id="content-p" class="">
+              <span class="label-blue mb-sm-4 mb-3">PHP</span>
+              <span class="label-blue mb-sm-4 mb-3">Laravel</span>
+              <span class="label-blue mb-sm-4 mb-3">Node JS</span>
+              <span class="label-blue mb-sm-4 mb-3">MySQL</span>
+              <span class="label-blue mb-sm-4 mb-3">MongoDB</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Portfolio -->
-    <div class="container mt-5 p-3 fadeInUp" id="portfolio">
+    <div class="container mt-5 p-3 fadeInUp" id="work">
       <div class="container">
         <div class="section-header">
           <h4 class="section-title">Portfolio</h4>
@@ -367,19 +356,19 @@
                 </div>
               </a>
             </div>
-      
+
             <div class="card-body">
               <h5 class="card-title text-capitalize portfolio-title">
                 <a href="https://movieslab.netlify.app/" target="_blank">Cinemax Pro Movies</a>
               </h5>
               <p class="card-text">
-                Cinemax Pro Movies is the Web Application that helps movies lover's to browse and explore trending. 
-                Enjoy! 
+                Cinemax Pro Movies is the Web Application that helps movies lover's to browse and explore trending.
+                Enjoy!
               </p>
             </div>
           </div>
         </div>
-        
+
       </div>
 
       <div class="m-3 text-center">
@@ -396,7 +385,10 @@
       </div>
 
       <div class="border container"
-        style="border-radius: 10px; padding: 40px; z-index: 10; position: relative; background-color: rgb(38, 67, 92); color: rgb(250, 250, 250);">
+        style="border-radius: 10px; padding: 40px; z-index: 10; position: relative; background: #636363;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
         <div class="row text-center">
           <div class="col-md-4 pb-3" style="font-weight: bolder;">
             Start a project
@@ -411,7 +403,10 @@
             
         </div>
 
-        <div class=" p-4" style="background-color: rgb(61, 91, 190); margin-top: -40px;
+        <div class=" p-4" style="background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ margin-top: -40px;
                 z-index: 1;
                 position: relative; color: white;">
               <div class="d-flex justify-content-center mt-4">
@@ -421,7 +416,7 @@
                     <h4>Veni, vidi, vici</h4>
                   </div>
                   <div class="mt-4">
-                    <a href="https://twitter.com/_adstz" class="text-white btn btn-outline-info"
+                    <a href="https://twitter.com/_adstz" class="label-blue text-white btn btn-outline-info"
                       style="border-radius: 50px;">
                       <i class="fa fa-twitter"></i>
                     </a>
@@ -451,15 +446,15 @@
                 </div>
               </div>
           </div>
-        </div>
+    </div>
 
 
-      </div>
 
       <!-- JS libraries Script -->
       <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/theme-change.js"></script>
       <script src="assets/js/typed.min.js"></script>
       <script src="assets/js/magnific-popup.min.js"></script>
       <script src="assets/js/easing.min.js"></script>
@@ -491,7 +486,7 @@
 
           var typed = new Typed(".me", {
             strings: [
-              "My name is Ambrose Sulley [Akonaay], I am IT Support and Full-stack web developer enthusiast with over 3+ years of experiences,",
+              "My name is <strong>Ambrose Sulley</strong> [Akonaay], I am IT Support and Full-stack web developer enthusiast with over 3+ years of experiences,",
             ],
             typeSpeed: 50,
             showCursor: false,
@@ -499,6 +494,7 @@
           });
         });
       </script>
+
 </body>
 
 </html>
