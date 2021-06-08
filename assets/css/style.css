@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&400&600&700&800&600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&400&600&700&800&600&900display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 * {
     font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-weight: 900;
+}
+
+.nav-link:hover {
+    color: #e1ecf1;
+    text-decoration: underline;
 }
 
 /* Topbar */
@@ -84,6 +93,30 @@ span.label-blue {
     font-weight: 600;
 }
 
+span.label-blue-1 {
+    display: inline-block;
+    background: rgba(238, 193, 193, 0.575) !important;
+    padding: 2px 7px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.navbar-toggler {
+    background: rgba(98, 243, 153, 0.575) !important;
+}
+
+.navbar-toggler-icon {
+    color: #f8f7fa !important;
+    /* background: rgba(233, 237, 245, 0.575) !important; */
+}
+
+.breadcrumb-h4 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
 .box-wrap {
     margin-top: 30px;
     padding: 40px 20px;
@@ -93,6 +126,10 @@ span.label-blue {
     background-color: rgb(255, 255, 255);
     text-align: center;
     border: 1px solid #26308b;
+}
+
+.content-p-2 span {
+    font-size: 5px !important;
 }
 
 .box-wrap:hover {
@@ -207,4 +244,126 @@ span.label-blue {
     box-sizing: border-box;
 }
 
-@media (max-width: 745.98px) {}
+.intro {
+    background: #23074d;
+    background-size: cover;
+    /* min-height: 70vh; */
+}
+
+.intro h4 {
+    color: #ecf5f2;
+    padding-top: 6rem;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.intro p {
+    color: #50d8af;
+}
+
+#contact .pb-3 {
+    color: white;
+}
+
+.footer-0 {
+    border-radius: 10px;
+    padding: 40px;
+    z-index: 10;
+    position: relative;
+    background: #636363;
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);
+    background: linear-gradient(to right, #a2ab58, #636363);
+}
+
+.footer-1 {
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+    margin-top: -40px;
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+.resume {
+    background-color: #4f65e0;
+    background-size: contain;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* @media (max-width: 572px) {
+    #footer-0 {
+        margin-left: 20px !important;
+    }
+} */
+
+@media (max-width: 1920px) {
+    #skills {
+        margin-top: -20%;
+    }
+    .intro {
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 668px) {
+    #skills {
+        margin-top: -50%;
+    }
+}
+
+@media (max-width: 375px) {
+    #skills {
+        margin-top: -60% !important;
+    }
+    .intro {
+        min-height: 80vh;
+    }
+    #footer-0 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    #skills {
+        margin-top: -50%;
+    }
+    .intro {
+        min-height: 100vh;
+    }
+    .intro h4 {
+        color: #ecf5f2;
+        padding-top: 3rem;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1560px) {
+    #skills {
+        margin-top: -10%;
+    }
+    .intro {
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 708px) {
+    /* #skills {
+        margin-top: -10%;
+    } */
+    .intro {
+        min-height: 90vh;
+    }
+}
+
+@media (max-width: 510.98px) {
+    .breadcrumb-h4 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 750.98px) {
+    /*  */
+}
