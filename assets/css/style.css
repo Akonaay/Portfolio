@@ -325,9 +325,27 @@ span.label-blue-1 {
     }
 }
 
-@media (max-width: 292px) {
+@media (max-width: 295px) {
     #skills {
         margin-top: -30% !important;
+    }
+    .intro {
+        min-height: 120vh !important;
+    }
+}
+
+@media (max-width: 700px) {
+    #skills {
+        margin-top: -40% !important;
+    }
+    .intro {
+        min-height: 120vh !important;
+    }
+}
+
+@media (max-width: 290px) {
+    #skills {
+        margin-top: -40% !important;
     }
     .intro {
         min-height: 120vh !important;
