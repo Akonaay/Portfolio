@@ -315,13 +315,31 @@ span.label-blue-1 {
 
 @media (max-width: 375px) {
     #skills {
-        margin-top: -60% !important;
+        margin-top: -10% !important;
     }
     .intro {
-        min-height: 80vh;
+        min-height: 100vh !important;
     }
     #footer-0 {
         padding: 20px;
+    }
+}
+
+@media (max-width: 292px) {
+    #skills {
+        margin-top: -30% !important;
+    }
+    .intro {
+        min-height: 120vh !important;
+    }
+}
+
+@media (max-width: 254px) {
+    #skills {
+        margin-top: -30% !important;
+    }
+    .intro {
+        min-height: 140vh !important;
     }
 }
 
